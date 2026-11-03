@@ -820,7 +820,7 @@ const C = {
   strawTea: "#d65a5a", oj: "#f29a2e", water: "#dcecf0", soda: "#e3f3f7", lemonade: "#e86a78", cacao: "#6b3e26",
   pumpkin: "#d9822b", salted: "#fffaf0", matchaFoam: "#b9d08a", biscoffFoam: "#dcbb8f", pumpkinFoam: "#f0c08a",
   tiramisuFoam: "#efe3cf", egg: "#f3d98a", crunch: "#a8743a", cacaoPowder: "#5a3420", pumpkinPowder: "#8a4b22",
-  lime: "#9ccc4a", biscoffMilk: "#e6d3b2", pumpkinMilk: "#eed9bc", sodaLime: "#e6f2d2", syrup: "#f3ead2",
+  lime: "#9ccc4a", biscoffMilk: "#e6d3b2", pumpkinMilk: "#eed9bc", sodaLime: "#e6f2d2", syrup: "#f3ead2", coconutWater: "#eef0e0",
 };
 const BUILDS = {
   "Vietnamese Coffee": [
@@ -900,6 +900,11 @@ const BUILDS = {
   "Matcha Coconut": [
     { k: "slush", name: "Cốt dừa 6 oz xay với 9 oz đá, đổ vào ly", c: C.coconut, ml: 170, ice: 255, src: "pitcher" },
     { k: "layer", name: "Rót matcha (6 g + 60 g nước 170°F) lên trên", c: C.matcha, ml: 66, src: "bowl" },
+  ],
+  "Coconut Matcha Cheese Cloud": [
+    { k: "ice", name: "Cho 8 oz đá vào ly", ice: 227 },
+    { k: "layer", name: "Nước dừa 160 g + syrup 15 g, khuấy đều, rót vào ly", c: C.coconutWater, ml: 175, src: "pitcher" },
+    { k: "foam", name: "Phủ 3 oz kem matcha lên trên", c: C.matchaFoam, ml: 85, src: "pitcher" },
   ],
   "Premium Jasmine Tea": [
     { k: "layer", name: "Trà lài 250 g + syrup 45 g, khuấy đều", c: C.tea, ml: 295, src: "pitcher" },
@@ -1033,6 +1038,8 @@ const BUILDS_EN = {
   "Cà phê phin 100 ml": "100 ml phin coffee",
   "Lắc với 10 oz đá, rót ra ly": "Shake with 10 oz ice, pour into the cup",
   "Phủ 3 oz kem muối lên trên": "Top with 3 oz salted cream",
+  "Cho 8 oz đá vào ly": "8 oz ice into the cup",
+  "Nước dừa 160 g + syrup 15 g, khuấy đều, rót vào ly": "160 g coconut water + 15 g syrup, stir well, pour into the cup",
   "Phủ 3 oz kem matcha lên trên": "Top with 3 oz matcha cream",
   "Cốt dừa 6.5 oz xay với 8.5 oz đá, đổ vào ly": "Blend 6.5 oz coconut mix with 8.5 oz ice, pour into the cup",
   "Rót cà phê phin 60 ml lên trên": "Pour 60 ml phin coffee on top",
